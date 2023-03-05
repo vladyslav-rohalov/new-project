@@ -50,20 +50,17 @@ export const TextField = styled.input`
 `;
 
 export const FilterList = styled.div`
-  position: relative;
   display: flex;
   gap: 20px;
   margin-top: 40px;
 `;
 
-export const Filter = styled.input`
-  &:before {
-    content: '';
-    width: 30px;
-    height: 20px;
-    background-color: #ffa500;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-  }
+export const Filter = styled.button`
+  width: auto;
+  border-radius: 5px;
+  border: none;
+  background-color: #343434;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 10px;
 `;

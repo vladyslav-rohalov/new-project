@@ -42,10 +42,23 @@ export default function Coins() {
           <SearchIcon />
         </InputDiv>
       </FirstRow>
+
       <FilterList>
-        <Filter type="radio" value="Blockchain" name="filter" /> Male
-        <Filter type="radio" value="Defi" name="filter" /> Female
-        <Filter type="radio" value="Games" name="filter" /> Other
+        <li>
+          <Filter>All crypto</Filter>
+        </li>
+        <li>
+          <Filter type="">Blockchain</Filter>
+        </li>
+        <li>
+          <Filter>Defi</Filter>
+        </li>
+        <li>
+          <Filter>Games</Filter>
+        </li>
+        <li>
+          <Filter>Fun token</Filter>
+        </li>
       </FilterList>
 
       <table></table>
