@@ -2,9 +2,9 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import Navigation from '../navigation/navigation';
 import Logo from '../logo/logo';
+import Autorization from '../autorization/autorization';
 import {
   Header,
-  Footer,
   Container,
   Main,
   SideBar,
@@ -18,14 +18,17 @@ export default function Layout() {
         <ContainerHeader>
           <Logo />
           <Navigation />
+          <Autorization />
         </ContainerHeader>
       </Header>
-      <SideBar></SideBar>
-      <Main></Main>
-      <Suspense>
-        <Outlet />
-      </Suspense>
-      <Footer></Footer>
+      <SideBar>
+        <p>Here will be some news</p>
+      </SideBar>
+      <Main>
+        <Suspense>
+          <Outlet />
+        </Suspense>
+      </Main>
     </Container>
   );
 }

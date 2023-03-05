@@ -1,10 +1,9 @@
 import {
   Nav,
   Link,
-  IconDashboard,
-  IconWallet,
-  IconTrade,
-  IconMarket,
+  IconPortfolio,
+  IconNft,
+  IconCoins,
   IconNotification,
   IconSettings,
 } from './navigation.styled';
@@ -13,20 +12,16 @@ export default function Navigation() {
   return (
     <Nav>
       <Link to="/" end>
-        <IconDashboard />
-        Dashboard
+        <IconCoins />
+        Coins
       </Link>
       <Link to="/">
-        <IconWallet />
-        Wallet
+        <IconNft />
+        NFT
       </Link>
       <Link to="/">
-        <IconTrade />
-        Trade
-      </Link>
-      <Link to="/">
-        <IconMarket />
-        Market
+        <IconPortfolio />
+        Portfolio
       </Link>
       <Link to="/">
         <IconNotification />

@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
-import { GrLanguage } from 'react-icons/gr';
-import { MdDarkMode } from 'react-icons/md';
-import { MdLightMode } from 'react-icons/md';
+// import { GrLanguage } from 'react-icons/gr';
+// import { MdDarkMode } from 'react-icons/md';
+// import { MdLightMode } from 'react-icons/md';
 
 export const Container = styled.div`
   flex: 1 1 0%;
@@ -34,6 +34,7 @@ export const SideBar = styled.div`
 
 export const Main = styled.div`
   ${commonStyle}
+  overflow: hidden;
   margin-left: 264px;
   margin-right: 400px;
   width: calc(100vw - 264px - 400px);
@@ -51,5 +52,3 @@ export const ContainerHeader = styled.div`
   height: 424px;
   color: white;
 `;
-
-export const Footer = styled.footer``;
