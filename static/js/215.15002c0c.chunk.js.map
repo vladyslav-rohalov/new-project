@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/215.15002c0c.chunk.js","mappings":"wKAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,KAAAC,SAAG,iBACZ,C","sources":["pages/settings/settings.jsx"],"sourcesContent":["export default function Settings() {\n  return <p>Settings!!!!!</p>;\n}\n"],"names":["Settings","_jsx","children"],"sourceRoot":""}

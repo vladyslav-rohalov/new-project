@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/102.1b4543a6.chunk.js","mappings":"wKAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,KAAAC,SAAG,8BACZ,C","sources":["pages/notifications/notifications.jsx"],"sourcesContent":["export default function Notifications() {\n  return <p>Notifications!!!!!!!!!!!!!</p>;\n}\n"],"names":["Notifications","_jsx","children"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/339.91c738c8.chunk.js","mappings":"wKAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,KAAAC,SAAG,wBACZ,C","sources":["pages/portfolio/portfolio.jsx"],"sourcesContent":["export default function Portfolio() {\n  return <p>Portfolio!!!!!!!!!!!</p>;\n}\n"],"names":["Portfolio","_jsx","children"],"sourceRoot":""}

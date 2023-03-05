@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknew_project=self.webpackChunknew_project||[]).push([[102],{102:function(n,e,t){t.r(e),t.d(e,{default:function(){return r}});var c=t(184);function r(){return(0,c.jsx)("p",{children:"Notifications!!!!!!!!!!!!!"})}}}]);
+//# sourceMappingURL=102.1b4543a6.chunk.js.map

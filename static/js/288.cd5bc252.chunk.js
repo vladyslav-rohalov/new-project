@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknew_project=self.webpackChunknew_project||[]).push([[288],{288:function(e,n,r){r.r(n),r.d(n,{default:function(){return u}});var t=r(184);function u(){return(0,t.jsx)("p",{children:"NFT!!!!!!!!!!!!"})}}}]);
+//# sourceMappingURL=288.cd5bc252.chunk.js.map
