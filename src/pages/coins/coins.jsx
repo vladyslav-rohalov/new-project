@@ -9,6 +9,12 @@ import {
   InputDiv,
   FilterList,
   Filter,
+  WidgetContainer,
+  WidgetTitle,
+  IconFire,
+  WidgetTitleText,
+  WidgetList,
+  WidgetItem,
 } from './coins.styled';
 
 export default function Coins() {
@@ -35,11 +41,29 @@ export default function Coins() {
             name="searchCoinsForm"
             type="text"
             autocomplete="off"
+            inputmode="search"
+            // aria-autocomplete="list"
+            // aria-controls="global-search-menu"
+            // aria-labelledby="global-search-label"
+            // aria-activedescendant="global-search-items-trending-47418"
             placeholder="Search coins"
             onChange={handleInput}
             value={input}
           />
           <SearchIcon />
+          <WidgetContainer>
+            <WidgetTitle>
+              <IconFire />
+              <WidgetTitleText>Trending coins</WidgetTitleText>
+            </WidgetTitle>
+            <WidgetList>
+              <WidgetItem>pppppp</WidgetItem>
+              <WidgetItem>pppppp</WidgetItem>
+              <WidgetItem>pppppp</WidgetItem>
+              <WidgetItem>pppppp</WidgetItem>
+              <WidgetItem>pppppp</WidgetItem>
+            </WidgetList>
+          </WidgetContainer>
         </InputDiv>
       </FirstRow>
 
