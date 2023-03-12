@@ -2,15 +2,13 @@ import styled from '@emotion/styled';
 import { BiLogIn, BiLogOut } from 'react-icons/bi';
 
 export const Container = styled.div`
-  position: fixed;
-  bottom: 0;
   display: flex;
-  gap: 10px;
-  padding-bottom: 20px;
+  gap: 0.75em;
+  align-items: center;
 `;
 
 export const Button = styled.button`
-  font-size: 17px;
+  font-size: 1.2em;
   background-color: transparent;
   color: #747474;
   border: none;
@@ -23,12 +21,12 @@ export const Button = styled.button`
 
 export const IconLogIn = styled(BiLogIn)`
   fill: #747474;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
 `;
 
 export const IconLogOut = styled(BiLogOut)`
   fill: #747474;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
 `;

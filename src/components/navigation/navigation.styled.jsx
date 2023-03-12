@@ -10,40 +10,40 @@ const primaryColor = '#747474';
 const accentColor = '#d4af37';
 
 export const IconPortfolio = styled(BsBriefcaseFill)`
-  width: 24px;
-  height: 24px;
-  margin-right: 24px;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1.5em;
 `;
 
 export const IconNft = styled(GiPickOfDestiny)`
-  width: 24px;
-  height: 24px;
-  margin-right: 24px;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1.5em;
 `;
 
 export const IconCoins = styled(BsCurrencyBitcoin)`
-  width: 24px;
-  height: 24px;
-  margin-right: 24px;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1.5em;
 `;
 
 export const IconNotification = styled(MdNotifications)`
-  width: 24px;
-  height: 24px;
-  margin-right: 24px;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1.5em;
 `;
 
 export const IconSettings = styled(IoMdSettings)`
-  width: 24px;
-  height: 24px;
-  margin-right: 24px;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1.5em;
 `;
 
 export const Nav = styled.nav`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 2em;
 `;
 
 export const Link = styled(NavLink)`
@@ -51,7 +51,7 @@ export const Link = styled(NavLink)`
   align-items: center;
   text-decoration: none;
   color: ${primaryColor};
-  font-size: 17px;
+  font-size: 1.2em;
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {

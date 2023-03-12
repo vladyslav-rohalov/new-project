@@ -3,7 +3,7 @@ import { GoSearch } from 'react-icons/go';
 import { ImFire } from 'react-icons/im';
 
 export const Container = styled.div`
-  padding: 36px 20px 20px 20px;
+  padding: 2em 2em 1em 1em;
 `;
 
 export const FirstRow = styled.div`

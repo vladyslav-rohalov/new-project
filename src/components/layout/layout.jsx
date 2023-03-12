@@ -3,26 +3,30 @@ import { Outlet } from 'react-router-dom';
 import Navigation from '../navigation/navigation';
 import Logo from '../logo/logo';
 import Autorization from '../autorization/autorization';
+import ColorMode from '../colorMode/colorMode';
 import {
   Header,
   Container,
   Main,
   SideBar,
-  ContainerHeader,
+  ContainerSidebar,
+  HeaderDiv,
 } from './layout.styled';
 
 export default function Layout() {
   return (
     <Container>
       <Header>
-        <ContainerHeader>
-          <Logo />
-          <Navigation />
+        <Logo />
+        <HeaderDiv>
+          <ColorMode />
           <Autorization />
-        </ContainerHeader>
+        </HeaderDiv>
       </Header>
       <SideBar>
-        <p>Here will be some news</p>
+        <ContainerSidebar>
+          <Navigation />
+        </ContainerSidebar>
       </SideBar>
       <Main>
         <Suspense>
